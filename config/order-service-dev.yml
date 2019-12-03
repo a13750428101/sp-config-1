@@ -2,10 +2,14 @@
 spring:
   application:
     name: order-service
+  rabbitmq:
+    host: 192.168.64.5
+    port: 5672
+    username: root
+    password: root
     
 # server:
 #  port: 8201
-  
   
 eureka:
   client:
@@ -36,3 +40,4 @@ spring:
 server:
   port: 8202
   
+
